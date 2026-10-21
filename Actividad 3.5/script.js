@@ -39,7 +39,6 @@ console.log(`${numeros2} estan desordenados, asi ${numerosOrdenados} estan orden
 console.log("");
 // 3.5.6
 const palabras = ["Aram",""];
-const vocales = "aeiou";
 
 const empiezaPorVocal = palabras.find((palabra)=>palabra.toLowerCase().startsWith("a","e","i","o","u"));
 console.log(`a`,empiezaPorVocal);
@@ -51,4 +50,4 @@ if(todasLlenas == undefined){
     console.log('Hay alguna vacia')
 }
 const numeroCaracteres = palabras.reduce((acumulador, caracters) => acumulador + caracters.length, 0);
-console.log(numeroCaracteres)
+console.log(numeroCaracteres);
